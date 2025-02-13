@@ -19,11 +19,14 @@ __status__ = "Dev"
 
 from concurrent.futures import TimeoutError
 from google.cloud import pubsub_v1
+from google.cloud.pubsub_v1.types import SeekRequest, Timestamp
 import argparse
 import json
 import re
 from tabulate import tabulate
 from pyfiglet import *
+import datetime
+import pytz
 
 TARGET_DEVICE_ID = ""
 TARGET_REGISTRY_ID = ""
@@ -127,6 +130,36 @@ def message_callback(message: pubsub_v1.subscriber.message.Message) -> None:
             print_message(message, TARGET_POINT_NAME)
     message.ack()
 
+def seek_subscription(project_id, subscription_id, timestamp=None, snapshot_id=None):
+    """Seeks a Pub/Sub subscription to a given timestamp or snapshot.
+
+    Args:
+        project_id (str): Google Cloud Project ID.
+        subscription_id (str): The ID of the Pub/Sub subscription.
+        timestamp (datetime.datetime, optional): The timestamp to seek to.
+        snapshot_id (str, optional): The ID of the snapshot to seek to.
+    """
+
+    subscriber = pubsub_v1.SubscriberClient()
+    subscription_path = subscriber.subscription_path(project_id, subscription_id)
+
+    seek_request = SeekRequest(subscription=subscription_path)
+
+    if timestamp:
+        timestamp_pb = Timestamp()
+        timestamp_pb.FromDatetime(timestamp)
+        seek_request.time = timestamp_pb
+    elif snapshot_id:
+        snapshot_path = subscriber.snapshot_path(project_id, snapshot_id)
+        seek_request.snapshot = snapshot_path
+    else:
+        raise ValueError("Either timestamp or snapshot_id must be provided.")
+
+    try:
+        response = subscriber.seek(request=seek_request)
+        print(f"Seek operation completed: {response}")
+    except Exception as e:
+        print(f"Error during seek operation: {e}")
 
 def show_title():
   """Show the program title
@@ -153,6 +186,7 @@ def main():
   parser.add_argument("-n", "--pointname", default="", help="filter for the point name (optional)")
   parser.add_argument("-x", "--regex", action="store_true", default=False, help="filter device or gateway by regex (default is false)")
   parser.add_argument("-t", "--timeout", default="3600", help="time interval in seconds for which to receive messages (optional, default=3600 seconds)")
+  parser.add_argument("--seek", action="store_true", default=False, help="seek the PubSub subscription to acknowledge messages and reset the retention queue")
 
   args = parser.parse_args()
 
@@ -171,6 +205,7 @@ def main():
     TARGET_TYPE = args.type
     TARGET_POINT_NAME = args.pointname
     USE_REGEX = args.regex
+    SEEK = args.seek
 
     # Number of seconds the subscriber should listen for messages
     TIMEOUT = int(args.timeout)
@@ -179,6 +214,13 @@ def main():
     # The `subscription_path` method creates a fully qualified identifier
     # in the form `projects/{project_id}/subscriptions/{subscription_id}`
     subscription_path = subscriber.subscription_path(PROJECT_ID, SUBSCRIPTION_ID)
+    
+    if SEEK:
+      # Calculate 30 days before now in UTC.
+      now_utc = datetime.datetime.now(tz=pytz.utc)
+      thirty_days_ago = now_utc - datetime.timedelta(days=30)
+      
+      seek_subscription(PROJECT_ID, SUBSCRIPTION_ID, timestamp=now_utc)
 
     streaming_pull_future = subscriber.subscribe(subscription_path, callback=message_callback)
     if TARGET_DEVICE_ID == "":
