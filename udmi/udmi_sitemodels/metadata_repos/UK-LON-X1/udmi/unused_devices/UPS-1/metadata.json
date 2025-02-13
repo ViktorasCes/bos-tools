@@ -1,0 +1,119 @@
+{
+  "version": "1.3.14",
+  "timestamp": "2018-08-26T21:39:29.364Z",
+  "system": {
+    "location": {
+      "site": "UK-LON-X1",
+      "section": "L00-R18",
+      "position": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "ifc://1bZGvd5J517Oy2spkWhWQ7",
+        "site": "UK-LON-X1",
+        "name": "UPS-1"
+      }
+    }
+  },
+  "cloud": {
+    "auth_type": "RS256"
+  },
+  "localnet": {
+    "families": {
+      "bacnet": {
+        "id": "1011005"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "output_percentage_sensor": {
+        "units": "percent"
+      },
+      "output_phase1_percentage_sensor": {
+        "units": "percent"
+      },
+      "output_phase2_percentage_sensor": {
+        "units": "percent"
+      },
+      "output_phase3_percentage_sensor": {
+        "units": "percent"
+      },
+      "output_apparent_power_sensor": {
+        "units": "no_units"
+      },
+      "output_power_sensor": {
+        "units": "kilowatts"
+      },     
+      "output_phase1_line_current_sensor": {
+        "units": "ampares"
+      },      
+      "output_phase2_line_current_sensor": {
+        "units": "ampares"
+      },         
+      "output_phase3_line_current_sensor": {
+        "units": "ampares"
+      },          
+      "output_neutral_line_current_sensor": {
+        "units": "ampares"
+      },              
+      "output_phase1_neutral_voltage_sensor": {
+        "units": "volts"
+      },
+      "output_phase2_neutral_voltage_sensor": {
+        "units": "volts"
+      },
+      "output_phase3_neutral_voltage_sensor": {
+        "units": "volts"
+      },
+      "output_frequency_sensor": {
+        "units": "hertz"
+      },
+      "output_phase1_phase2_voltage_sensor": {
+        "units": "volts"
+      },
+      "output_phase2_phase3_voltage_sensor": {
+        "units": "volts"
+      },
+      "output_phase3_phase1_voltage_sensor": {
+        "units": "volts"
+      },
+      "output_phase1_power_sensor": {
+        "units": "kilowatts"
+      },  
+      "output_phase2_power_sensor": {
+        "units": "kilowatts"
+      },   
+      "output_phase3_power_sensor": {
+        "units": "kilowatts"
+      },  
+      "output_phase1_apparent_power_sensor": {
+        "units": "no_units"
+      },
+      "output_phase2_apparent_power_sensor": {
+        "units": "no_units"
+      },
+      "output_phase3_apparent_power_sensor": {
+        "units": "no_units"
+      },
+      "battery_percentage_capacity": {
+        "units": "percent"
+      },
+      "battery_run_time_capacity": {
+        "units": "minutes"
+      },
+      "battery_run_time_sensor": {
+        "units": "minutes"
+      },     
+      "device_alarm": {
+        "units": "no_units"
+      }, 
+      "device_status": {
+        "units": "no_units"
+      }       
+    }
+  }
+}

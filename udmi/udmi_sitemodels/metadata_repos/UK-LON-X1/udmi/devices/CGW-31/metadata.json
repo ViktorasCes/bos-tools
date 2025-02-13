@@ -1,0 +1,478 @@
+{
+  "version": "1.3.14",
+  "timestamp": "2018-08-26T21:39:29.364Z",
+  "system": {
+    "location": {
+      "site": "UK-LON-X1",
+      "section": "L01-R27",
+      "position": {
+        "x": 9055.320392,
+        "y": 32853.93792,
+        "z": 5544.2		
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "ifc://37zSNTL_1DdxmvEO5f5PnA",
+        "site": "UK-LON-X1",
+        "name": "CGW-31"
+      }
+    }
+  },
+  "cloud": {
+    "auth_type": "RS256"
+  },
+  "localnet": {
+    "families": {
+      "bacnet": {
+        "id": "1011003"
+    }
+   }
+  },
+  "pointset": {
+    "points": {
+      "fire_alarm_13001": {
+        "units": "no_units"
+      },
+      "fire_alarm_13002": {
+        "units": "no_units"
+      },
+      "fire_alarm_13003": {
+        "units": "no_units"
+      },
+      "fire_alarm_13004": {
+        "units": "no_units"
+      },
+      "fire_alarm_13005": {
+        "units": "no_units"
+      },
+      "fire_alarm_13006": {
+        "units": "no_units"
+      },
+      "fire_alarm_13007": {
+        "units": "no_units"
+      },
+      "fire_alarm_13008": {
+        "units": "no_units"
+      },
+      "fire_alarm_13009": {
+        "units": "no_units"
+      },
+      "fire_alarm_13010": {
+        "units": "no_units"
+      },
+      "fire_alarm_13011": {
+        "units": "no_units"
+      },
+      "fire_alarm_13012": {
+        "units": "no_units"
+      },
+      "fire_alarm_13013": {
+        "units": "no_units"
+      },
+      "fire_alarm_13014": {
+        "units": "no_units"
+      },
+      "fire_alarm_13015": {
+        "units": "no_units"
+      },
+      "fire_alarm_13016": {
+        "units": "no_units"
+      },
+      "fire_alarm_13017": {
+        "units": "no_units"
+      },
+      "fire_alarm_13018": {
+        "units": "no_units"
+      },
+      "fire_alarm_13019": {
+        "units": "no_units"
+      },
+      "fire_alarm_13020": {
+        "units": "no_units"
+      },
+      "fire_alarm_13022": {
+        "units": "no_units"
+      },
+      "fire_alarm_13024": {
+        "units": "no_units"
+      },
+      "fire_alarm_13025": {
+        "units": "no_units"
+      },
+      "fire_alarm_13026": {
+        "units": "no_units"
+      },
+      "fire_alarm_13027": {
+        "units": "no_units"
+      },
+      "fire_alarm_13028": {
+        "units": "no_units"
+      },
+      "fire_alarm_13029": {
+        "units": "no_units"
+      },
+      "fire_alarm_13030": {
+        "units": "no_units"
+      },
+      "fire_alarm_13031": {
+        "units": "no_units"
+      },
+      "fire_alarm_13032": {
+        "units": "no_units"
+      },
+      "fire_alarm_13033": {
+        "units": "no_units"
+      },
+      "fire_alarm_13034": {
+        "units": "no_units"
+      },
+      "fire_alarm_13035": {
+        "units": "no_units"
+      },
+      "fire_alarm_13036": {
+        "units": "no_units"
+      },
+      "fire_alarm_13037": {
+        "units": "no_units"
+      },
+      "fire_alarm_13038": {
+        "units": "no_units"
+      },
+      "fire_alarm_13039": {
+        "units": "no_units"
+      },
+      "fire_alarm_13040": {
+        "units": "no_units"
+      },
+      "fire_alarm_13041": {
+        "units": "no_units"
+      },
+      "fire_alarm_13042": {
+        "units": "no_units"
+      },
+      "fire_alarm_13043": {
+        "units": "no_units"
+      },
+      "fire_alarm_13044": {
+        "units": "no_units"
+      },
+      "fire_alarm_13045": {
+        "units": "no_units"
+      },
+      "fire_alarm_13046": {
+        "units": "no_units"
+      },
+      "fire_alarm_13047": {
+        "units": "no_units"
+      },
+      "fire_alarm_13048": {
+        "units": "no_units"
+      },
+      "fire_alarm_13049": {
+        "units": "no_units"
+      },
+      "fire_alarm_13050": {
+        "units": "no_units"
+      },
+      "fire_alarm_13051": {
+        "units": "no_units"
+      },
+      "fire_alarm_13052": {
+        "units": "no_units"
+      },
+      "fire_alarm_13053": {
+        "units": "no_units"
+      },
+      "fire_alarm_13054": {
+        "units": "no_units"
+      },
+      "fire_alarm_13055": {
+        "units": "no_units"
+      },
+      "fire_alarm_13056": {
+        "units": "no_units"
+      },
+      "fire_alarm_13057": {
+        "units": "no_units"
+      },
+      "fire_alarm_13058": {
+        "units": "no_units"
+      },
+      "fire_alarm_13059": {
+        "units": "no_units"
+      },
+      "fire_alarm_13060": {
+        "units": "no_units"
+      },
+      "fire_alarm_13061": {
+        "units": "no_units"
+      },
+      "fire_alarm_13062": {
+        "units": "no_units"
+      },
+      "fire_alarm_13063": {
+        "units": "no_units"
+      },
+      "fire_alarm_13064": {
+        "units": "no_units"
+      },
+      "fire_alarm_13065": {
+        "units": "no_units"
+      },
+      "fire_alarm_13066": {
+        "units": "no_units"
+      },
+      "fire_alarm_13067": {
+        "units": "no_units"
+      },
+      "fire_alarm_13068": {
+        "units": "no_units"
+      },
+      "fire_alarm_13069": {
+        "units": "no_units"
+      },
+      "fire_alarm_13070": {
+        "units": "no_units"
+      },
+      "fire_alarm_13071": {
+        "units": "no_units"
+      },
+      "fire_alarm_13072": {
+        "units": "no_units"
+      },
+      "fire_alarm_13073": {
+        "units": "no_units"
+      },
+      "fire_alarm_13074": {
+        "units": "no_units"
+      },
+      "fire_alarm_13075": {
+        "units": "no_units"
+      },
+      "fire_alarm_13076": {
+        "units": "no_units"
+      },
+      "fire_alarm_13077": {
+        "units": "no_units"
+      },
+      "fire_alarm_13078": {
+        "units": "no_units"
+      },
+      "fire_alarm_13079": {
+        "units": "no_units"
+      },
+      "fire_alarm_13081": {
+        "units": "no_units"
+      },
+      "fire_alarm_13084": {
+        "units": "no_units"
+      },
+      "fire_alarm_13087": {
+        "units": "no_units"
+      },
+      "fire_alarm_13093": {
+        "units": "no_units"
+      },
+      "fire_alarm_13094": {
+        "units": "no_units"
+      },
+      "fire_alarm_13095": {
+        "units": "no_units"
+      },
+      "fire_alarm_13099": {
+        "units": "no_units"
+      },
+      "fire_alarm_13100": {
+        "units": "no_units"
+      },
+      "fire_alarm_13102": {
+        "units": "no_units"
+      },
+      "fire_alarm_13107": {
+        "units": "no_units"
+      },
+      "fire_alarm_13115": {
+        "units": "no_units"
+      },
+      "fire_alarm_13119": {
+        "units": "no_units"
+      },
+      "fire_alarm_13120": {
+        "units": "no_units"
+      },
+      "fire_alarm_13121": {
+        "units": "no_units"
+      },
+      "fire_alarm_13122": {
+        "units": "no_units"
+      },
+      "fire_alarm_13123": {
+        "units": "no_units"
+      },
+      "fire_alarm_13124": {
+        "units": "no_units"
+      },
+      "fire_alarm_13125": {
+        "units": "no_units"
+      },
+      "fire_alarm_22002": {
+        "units": "no_units"
+      },
+      "fire_alarm_22004": {
+        "units": "no_units"
+      },
+      "fire_alarm_22005": {
+        "units": "no_units"
+      },
+      "fire_alarm_22006": {
+        "units": "no_units"
+      },
+      "fire_alarm_22008": {
+        "units": "no_units"
+      },
+      "fire_alarm_22009": {
+        "units": "no_units"
+      },
+      "fire_alarm_22011": {
+        "units": "no_units"
+      },
+      "fire_alarm_22012": {
+        "units": "no_units"
+      },
+      "fire_alarm_22014": {
+        "units": "no_units"
+      },
+      "fire_alarm_22017": {
+        "units": "no_units"
+      },
+      "fire_alarm_22018": {
+        "units": "no_units"
+      },
+      "fire_alarm_22020": {
+        "units": "no_units"
+      },
+      "fire_alarm_22021": {
+        "units": "no_units"
+      },
+      "fire_alarm_22023": {
+        "units": "no_units"
+      },
+      "fire_alarm_22024": {
+        "units": "no_units"
+      },
+      "fire_alarm_22025": {
+        "units": "no_units"
+      },
+      "fire_alarm_22027": {
+        "units": "no_units"
+      },
+      "fire_alarm_22028": {
+        "units": "no_units"
+      },
+      "fire_alarm_22029": {
+        "units": "no_units"
+      },
+      "fire_alarm_22030": {
+        "units": "no_units"
+      },
+      "fire_alarm_22033": {
+        "units": "no_units"
+      },
+      "fire_alarm_22035": {
+        "units": "no_units"
+      },
+      "fire_alarm_22036": {
+        "units": "no_units"
+      },
+      "fire_alarm_22037": {
+        "units": "no_units"
+      },
+      "fire_alarm_22039": {
+        "units": "no_units"
+      },
+      "fire_alarm_22040": {
+        "units": "no_units"
+      },
+      "fire_alarm_22050": {
+        "units": "no_units"
+      },
+      "fire_alarm_220501": {
+        "units": "no_units"
+      },
+      "fire_alarm_22051": {
+        "units": "no_units"
+      },
+      "fire_alarm_220511": {
+        "units": "no_units"
+      },
+      "fire_alarm_22052": {
+        "units": "no_units"
+      },
+      "fire_alarm_22053": {
+        "units": "no_units"
+      },
+      "fire_alarm_22054": {
+        "units": "no_units"
+      },
+      "fire_alarm_22055": {
+        "units": "no_units"
+      },
+      "fire_alarm_22056": {
+        "units": "no_units"
+      },
+      "fire_alarm_22057": {
+        "units": "no_units"
+      },
+      "fire_alarm_22068": {
+        "units": "no_units"
+      },
+      "fire_alarm_22069": {
+        "units": "no_units"
+      },
+      "fire_alarm_22070": {
+        "units": "no_units"
+      },
+      "fire_alarm_220701": {
+        "units": "no_units"
+      },
+      "fire_alarm_22073": {
+        "units": "no_units"
+      },
+      "fire_alarm_22075": {
+        "units": "no_units"
+      },
+      "fire_alarm_22076": {
+        "units": "no_units"
+      }
+    }
+  }
+}
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

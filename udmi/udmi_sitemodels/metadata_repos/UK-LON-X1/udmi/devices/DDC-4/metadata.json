@@ -1,0 +1,39 @@
+{
+  "version": "1.3.14",
+  "timestamp": "2018-08-26T21:39:29.364Z",
+  "system": {
+    "location": {
+      "site": "UK-LON-X1",
+      "section": "L00-R10",
+      "position": {
+        "x": 42452.22463,
+        "y": 17279.00013,
+		"z": 2980
+
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "ifc://1JSRZt$YX8WAI5X7EUCyt2",
+        "site": "UK-LON-X1",
+        "name": "DDC-4"
+      }
+    }
+  },
+  "cloud": {
+    "auth_type": "RS256"
+  },
+  "gateway": {
+    "proxy_ids": [ "VRF-5", "VRF-6", "VRF-7", "VRF-8" ]
+  },
+  "localnet": {
+    "families": {
+      "bacnet": {
+        "id": "1010010"
+      }
+    }
+  },
+  "pointset" : {
+     "points" : {}
+  }
+}

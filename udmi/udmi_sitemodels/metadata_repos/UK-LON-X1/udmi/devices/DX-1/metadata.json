@@ -1,0 +1,53 @@
+{
+  "version": "1.3.14",
+  "timestamp": "2021-02-25T09:56:39Z",
+  "hash": "e5eed1a4",
+  "system": {
+    "location": {
+      "site": "UK-LON-X1",
+      "section": "L01R27",
+      "position": {
+        "x": 6267.699495,
+        "y": 29054.36374,
+		"z": 5327.5
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "ifc://2CnDI6piz9NwHY7qLvXWZX",
+        "site": "UK-LON-X1",
+        "name": "DX-1"
+      }
+    }
+  },
+  "localnet": {
+    "families": {
+      "bacnet": {
+        "id": "1"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "DDC-39"
+  },
+  "pointset": {
+    "points": {
+      "return_air_temperature_sensor": {
+        "ref": "AI10.Present_Value",
+        "units": "degrees-celsius"
+      },
+      "return_air_temperature_setpoint": {
+        "ref": "AV2.Present_Value",
+        "units": "degrees-celsius"
+      },
+      "discharge_fan_run_status": {
+        "ref": "BI1.Present_Value",
+        "units": "no-units"
+      }, 
+      "fault_sensor": {
+        "ref": "AI11.Present_Value",
+        "units": "no-units"
+      }    
+    }
+  }
+}

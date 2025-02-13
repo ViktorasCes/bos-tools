@@ -1,0 +1,16 @@
+{
+  "cloud_region": "us-central1",
+  "site_name": "UK-LON-X1",
+  "registry_id": "UK-LON-X1",
+  "reflector_endpoint": {
+    "client_id": "projects/bos-platform-prod/locations/us-central1/registries/UDMI-REFLECT/devices/UK-LON-X1",
+    "hostname": "mqtt.bos.goog"
+  },
+  "device_endpoint": {
+    "client_id": "projects/bos-platform-prod/locations/us-central1/registries/UK-LON-X1/devices/AHU-102",
+    "hostname": "mqtt.bos.goog"
+  },
+  "device_id": "AHU-102",
+  "serial_no": "udmi-validator-1234",
+  "site_model": "./"
+}

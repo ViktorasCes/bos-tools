@@ -1,0 +1,113 @@
+{
+  "version": "1.3.14",
+  "timestamp": "2021-02-25T09:56:39Z",
+  "hash": "e5eed1a4",
+  "system": {
+    "location": {
+      "site": "UK-LON-X1",
+      "section": "L00-R13",
+      "position": {
+        "x": 35692.82673,
+        "y": 10791.04428,
+		"z": 3623.25
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "ifc://2fQUvd3WnDrRdQoNqLAcV5",
+        "site": "UK-LON-X1",
+        "name": "FCU-1"
+      }
+    }
+  },
+  "localnet": {
+    "families": {
+      "bacnet": {
+        "id": "1010001"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "DDC-97"
+  },
+  "pointset": {
+    "points": {
+      "cooling_water_valve_percentage_sensor": {
+        "ref": "AI1108.Present_Value",
+        "units": "percent"
+      },   
+      "heating_water_valve_percentage_sensor": {
+        "ref": "AI1106.Present_Value",
+        "units": "percent"
+      },   
+      "cooling_water_valve_percentage_command": {
+        "ref": "AO1107.Present_Value",
+        "units": "percent"
+      },  
+      "heating_water_valve_percentage_command": {
+        "ref": "AO1105.Present_Value",
+        "units": "percent"
+      },   
+      "filter_differential_pressure_sensor": {
+        "ref": "AI1201.Present_Value",
+        "units": "kilopascals"
+      },          
+      "discharge_fan_percentage_command": {
+        "ref": "AO1103.Present_Value",
+        "units": "percent"
+      },   
+      "discharge_fan_fault_status": {
+        "ref": "BI1104.Present_Value",
+        "units": "No-units"
+      },
+      "fire_alarm_status": {
+        "ref": "BV1001.Present_Value",
+        "units": "No-units"
+       },
+      "return_air_temperature_sensor": {
+        "ref": "AI1204.Present_Value",
+        "units": "degrees-celcius"
+       },
+       "discharge_air_temperature_sensor": {
+        "ref": "AI1203.Present_Value",
+        "units": "degrees-celcius"
+       },
+       "return_air_cooling_temperature_setpoint": {
+        "ref": "AV102.Present_Value",
+        "units": "degrees-celcius"
+       },      
+       "return_air_heating_temperature_setpoint": {
+        "ref": "AV101.Present_Value",
+        "units": "degrees-celcius"
+       },             
+      "fabric_protection_status": {
+        "ref": "BV101.Present_Value",
+        "units": "No-units"
+       },     
+      "return_air_temperature_alarm": {
+        "ref": "BV107.Present_Value",
+        "units": "No-units"
+        },
+      "zone_air_temperature_high_alarm": {
+        "ref": "BV108.Present_Value",
+        "units": "No-units"
+        },
+      "zone_air_temperature_low_alarm": {
+        "ref": "BV109.Present_Value",
+        "units": "No-units"
+        },       
+      "filter_dirty_alarm": {
+        "ref": "BV103.Present_Value",
+        "units": "No-units"
+        },      
+      "occupancy_status": {
+        "ref": "BV1005.Present_Value",
+        "units": "No-units"
+        },
+      "optimum_start_status": {
+        "ref": "BV1007.Present_Value",
+        "units": "No-units"      
+        }
+      }
+    }
+  }

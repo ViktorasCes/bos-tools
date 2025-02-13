@@ -1,0 +1,161 @@
+{
+  "version": "1.3.14",
+  "timestamp": "2018-08-26T21:39:29.364Z",
+  "system": {
+    "location": {
+      "site": "UK-LON-X1",
+      "section": "L01-R27",
+      "position": {
+        "x": 8787.151945,
+        "y": 32853.93792,
+		"z": 5544.2
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "ifc://37zSNTL_1DdxmvEO5f5Ppq",
+        "site": "UK-LON-X1",
+        "name": "CGW-11"
+      }
+    }
+  },
+  "cloud": {
+    "auth_type": "RS256"
+  },
+  "localnet": {
+    "families": {
+      "bacnet": {
+        "id": "1011001"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "heating_primary_supply_high_limit_temperature_setpoint": {
+        "units": "degrees-celcius"
+      },
+      "heating_primary_supply_low_limit_temperature_setpoint": {
+        "units": "degrees-celcius"
+      },
+      "heating_primary_supply_temperature_sensor": {
+        "units": "degrees-celcius"
+      },
+      "heating_primary_supply_high_temperature_status": {
+        "units": "no_units"
+      },
+      "heating_primary_supply_low_temperature_status": {
+        "units": "no_units"
+      },
+      "heating_primary_pump_run_command_1": {
+        "units": "no_units"
+      },
+      "heating_primary_pump_fault_status_1": {
+        "units": "no_units"
+      }, 
+      "heating_primary_pump_run_command_2": {
+        "units": "no_units"
+      },
+      "heating_primary_pump_fault_status_2": {
+        "units": "no_units"
+      },               
+      "heating_primary_return_temperature_sensor": {
+        "units": "degrees-celcius"
+      },    
+      "heating_primary_return_high_limit_temperature_setpoint": {
+        "units": "degrees-celcius"
+      },
+      "heating_primary_return_low_limit_temperature_setpoint": {
+        "units": "degrees-celcius"
+      },
+      "heating_primary_return_high_temperature_status": {
+        "units": "no_units"
+      },
+      "heating_primary_return_low_temperature_status": {
+        "units": "no_units"
+      },
+      "heating_primary_pump_differential_pressure_status": {
+        "units": "no_units"
+      },
+      "heating_secondary_supply_temperature_sensor_1": {
+        "units": "degrees-celcius"
+      },      
+      "heating_secondary_pump_fault_status_1": {
+        "units": "no_units"
+      },            
+      "heating_secondary_pump_fault_status_2": {
+        "units": "no_units"
+      },                
+      "heating_secondary_pump_differential_pressure_status_1": {
+        "units": "no_units"
+      },    
+      "heating_secondary_return_temperature_sensor_1": {
+        "units": "degrees-celcius"
+      },       
+      "heating_secondary_supply_temperature_sensor_2": {
+        "units": "degrees-celcius"
+      },      
+      "heating_secondary_pump_fault_status_3": {
+        "units": "no_units"
+      },            
+      "heating_secondary_pump_fault_status_4": {
+        "units": "no_units"
+      },                
+      "heating_secondary_pump_differential_pressure_status_2": {
+        "units": "no_units"
+      },    
+      "heating_secondary_return_temperature_sensor_2": {
+        "units": "degrees-celcius"
+      },
+      "hot_water_primary_supply_temperature_setpoint": {
+        "units": "degrees-celcius"
+      },     
+      "hot_water_primary_return_temperature_sensor": {
+        "units": "degrees-celcius"
+      },       
+      "hot_water_primary_supply_temperature_sensor": {
+        "units": "degrees-celcius"
+      },  
+      "hot_water_pump_fault_status_1": {
+        "units": "no_units"
+      },            
+      "hot_water_pump_fault_status_2": {
+        "units": "no_units"
+      },                
+      "hot_water_pump_differential_pressure_status": {
+        "units": "no_units"
+      },  
+      "heating_water_system_pressurization_device_status": {
+        "units": "no_units"
+      },
+      "heating_secondary_pump_run_command_1": {
+        "units": "no_units"
+      },   
+      "heating_secondary_pump_run_command_2": {
+        "units": "no_units"
+      },  
+      "heating_secondary_pump_run_command_3": {
+        "units": "no_units"
+      },
+      "heating_secondary_pump_run_command_4": {
+        "units": "no_units"
+      }, 
+      "hot_water_pump_run_command_1": {
+        "units": "no_units"
+      },   
+      "hot_water_pump_run_command_2": {
+        "units": "no_units"
+      },
+      "hot_water_secondary_return_temperature_sensor": {
+        "units": "degrees-celcius"
+      },       
+      "hot_water_secondary_supply_temperature_sensor": {
+        "units": "degrees-celcius"
+      },  
+      "hot_water_tank_temperature_sensor": {
+        "units": "degrees-celcius"
+      }
+      
+      
+    }
+  }
+}

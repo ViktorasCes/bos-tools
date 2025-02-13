@@ -1,0 +1,218 @@
+{
+  "version": "1.3.14",
+  "timestamp": "2018-08-26T21:39:29.364Z",
+  "system": {
+    "location": {
+      "site": "UK-LON-X1",
+      "section": "L00-R18",
+      "position": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "uuid://a4e3d382-d709-4ad2-bc6a-172ca2a7ebbd",
+        "site": "UK-LON-X1",
+        "name": "LKP-1"
+      }
+    }
+  },
+  "cloud": {
+    "auth_type": "RS256"
+  },
+  "localnet": {
+    "families": {
+      "bacnet": {
+        "id": "1011005"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "water_leak_alarm_101": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_102": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_103": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_104": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_105": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_106": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_107": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_108": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_109": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_110": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_111": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_112": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_113": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_114": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_115": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_116": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_117": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_118": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_119": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_120": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_121": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_122": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_123": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_124": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_125": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_126": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_127": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_128": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_129": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_130": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_131": {
+        "units": "no_units"
+      },    
+      "water_leak_alarm_201": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_202": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_203": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_204": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_205": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_206": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_207": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_208": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_209": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_210": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_211": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_212": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_213": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_214": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_215": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_216": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_217": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_218": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_219": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_220": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_221": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_222": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_223": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_224": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_225": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_226": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_301": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_302": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_303": {
+        "units": "no_units"
+      },
+      "water_leak_alarm_304": {
+        "units": "no_units"
+      }
+    }
+  }
+}

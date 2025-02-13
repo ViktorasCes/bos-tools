@@ -1,0 +1,88 @@
+{
+  "version": "1.3.14",
+  "timestamp": "2021-02-25T09:56:39Z",
+  "hash": "e5eed1a4",
+  "system": {
+    "location": {
+      "site": "UK-LON-X1",
+      "section": "L02-R05",
+      "position": {
+        "x": 8372.689495,
+        "y": 27597.80906
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "ifc://1DpE13wG51ygkKVpybrMsw",
+        "site": "UK-LON-X1",
+        "name": "TRH-53"
+      }
+    }
+  },
+  "localnet": {
+    "families": {
+      "bacnet": {
+        "id": "1010096"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "DDC-92"
+  },
+  "pointset": {
+    "points": {
+   
+      "heating_water_valve_percentage_sensor": {
+        "ref": "AI1103.Present_Value",
+        "units": "percent"
+    
+      },  
+      "heating_water_valve_percentage_command": {
+        "ref": "AO1102.Present_Value",
+        "units": "percent"
+   
+      },
+      "fire_alarm_status": {
+        "ref": "BV1001.Present_Value",
+        "units": "No-units"
+       },
+      "zone_air_control_temperature_sensor": {
+        "ref": "AV119.Present_Value",
+        "units": "degrees-celcius"
+       },
+       "zone_air_temperature_setpoint": {
+        "ref": "AV3.Present_Value",
+        "units": "degrees-celcius"
+    
+       },      
+       "zone_air_heating_temperature_setpoint": {
+        "ref": "AV1.Present_Value",
+        "units": "degrees-celcius"
+       },       
+      "fabric_protection_status": {
+        "ref": "BV108.Present_Value",
+        "units": "No-units"
+       },
+      "zone_air_temperature_alarm": {
+        "ref": "BV203.Present_Value",
+        "units": "No-units"
+        },
+      "zone_air_temperature_high_alarm": {
+        "ref": "BV202.Present_Value",
+        "units": "No-units"
+        },
+      "zone_air_temperature_low_alarm": {
+        "ref": "BV201.Present_Value",
+        "units": "No-units"
+        },
+      "occupancy_status": {
+        "ref": "BV1002.Present_Value",
+        "units": "No-units"
+        },
+      "optimum_start_status": {
+        "ref": "BV1004.Present_Value",
+        "units": "No-units"      
+        }
+      }
+    }
+  }

@@ -1,0 +1,53 @@
+{
+  "version": "1.3.14",
+  "timestamp": "2021-02-25T09:56:39Z",
+  "hash": "e5eed1a4",
+  "system": {
+    "location": {
+      "site": "UK-LON-X1",
+      "section": "L02-R05",
+      "position": {
+        "x": 37401.2177,
+        "y": 22361.10729,
+		"z": 11925
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "ifc://3_WSa4dYrCkxeBvN_nUx1O",
+        "site": "UK-LON-X1",
+        "name": "EF-8"
+      }
+    }
+  },
+  "localnet": {
+    "families": {
+      "bacnet": {
+        "id": "1010078"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "DDC-72"
+  },
+  "pointset": {
+    "points": {
+      "extract_air_temperature_sensor": {
+        "ref": "AI1104.Present_Value",
+        "units": "degrees-celcius"
+      },   
+      "extract_fan_run_status": {
+        "ref": "BI1102.Present_Value",
+        "units": "no-units"
+      },
+      "extract_fan_fault_status": {
+        "ref": "BI1103.Present_Value",
+        "units": "no-units"
+      },
+      "extract_fan_run_command": {
+        "ref": "BO1101.Present_Value",
+        "units": "no-units"
+      }
+    }
+  }
+}

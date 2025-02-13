@@ -1,0 +1,177 @@
+{
+  "version": "1.3.14",
+  "timestamp": "2018-08-26T21:39:29.364Z",
+  "system": {
+    "location": {
+      "site": "UK-LON-X1",
+      "section": "L01-R27",
+      "position": {
+        "x": 8787.151945,
+        "y": 32853.93792,
+		"z": 5544.2
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "ifc://37zSNTL_1DdxmvEO5f5Ppq",
+        "site": "UK-LON-X1",
+        "name": "CGW-1"
+      }
+    }
+  },
+  "cloud": {
+    "auth_type": "RS256"
+  },
+  "localnet": {
+    "families": {
+      "bacnet": {
+        "id": "1011001"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "water_volume_accumulator_1": {
+        "units": "cubic_meters"
+      },
+      "water_volume_accumulator_2": {
+        "units": "cubic_meters"
+      },
+      "water_volume_accumulator_3": {
+        "units": "cubic_meters"
+      },
+      "water_volume_accumulator_4": {
+        "units": "cubic_meters"
+      },
+      "water_volume_accumulator_5": {
+        "units": "cubic_meters"
+      },
+      "water_volume_accumulator_6": {
+        "units": "cubic_meters"
+      },
+      "water_volume_accumulator_7": {
+        "units": "cubic_meters"
+      },
+      "water_volume_accumulator_8": {
+        "units": "cubic_meters"
+      },
+      "water_volume_accumulator_9": {
+        "units": "cubic_meters"
+      },
+      "water_volume_accumulator_10": {
+        "units": "cubic_meters"
+      },
+      "energy_accumulator_1": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_2": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_3": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_4": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_5": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_6": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_7": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_8": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_9": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_10": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_11": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_12": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_13": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_14": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_15": {
+        "units": "kilowatt_hours"
+      },      
+      "energy_accumulator_16": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_17": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_18": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_19": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_20": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_21": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_22": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_23": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_24": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_25": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_26": {
+        "units": "kilowatt_hours"
+      },    
+      "energy_accumulator_27": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_28": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_29": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_30": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_31": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_32": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_33": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_34": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_35": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_36": {
+        "units": "kilowatt_hours"
+      },
+      "energy_accumulator_37": {
+        "units": "kilowatt_hours"
+      }     
+    }
+  }
+}

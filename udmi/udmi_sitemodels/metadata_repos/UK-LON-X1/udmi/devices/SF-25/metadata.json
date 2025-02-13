@@ -1,0 +1,72 @@
+{
+  "version": "1.3.14",
+  "timestamp": "2021-02-25T09:56:39Z",
+  "hash": "e5eed1a4",
+  "system": {
+    "location": {
+      "site": "UK-LON-X1",
+      "section": "L02-27",
+      "position": {
+        "x": 8372.689495,
+        "y": 27597.80906
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "ifc://3pTGs7TJT7gg1045CwgESJ",
+        "site": "UK-LON-X1",
+        "name": "SF-25"
+      }
+    }
+  },
+  "localnet": {
+    "families": {
+      "bacnet": {
+        "id": "1010070"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "DDC-64"
+  },
+  "pointset": {
+    "points": {
+      "cold_aisle_air_temperature_sensor": {
+        "ref": "AI101001.Present_Value",
+        "units": "degrees-celsius"
+      },
+      "cold_aisle_air_humidity_sensor": {
+        "ref": "AI101003.Present_Value",
+        "units": "percent-relative-humidity"
+      },
+      "hot_aisle_air_temperature_sensor": {
+        "ref": "AI102001.Present_Value",
+        "units": "degrees-celsius"
+      },
+      "hot_aisle_air_humidity_sensor": {
+        "ref": "AI102003.Present_Value",
+        "units": "percent-relative-humidity"
+      },
+      "discharge_fan_run_status": {
+        "ref": "BI1102.Present_Value",
+        "units": "No-units"
+      },
+      "discharge_fan_fault_status": {
+        "ref": "BI1103.Present_Value",
+        "units": "No-units"
+      },
+      "discharge_fan_speed_percentage_command": {
+        "ref": "AO1101.Present_Value",
+        "units": "percent"
+      },
+      "discharge_fan_percentage_speed_setpoint": {
+        "ref": "AV101.Present_Value",
+        "units": "percent"
+      },
+      "discharge_fan_static_pressure_status": {
+        "ref": "BI1104.Present_Value",
+        "units": "No-units"
+      }
+    }
+  }
+}

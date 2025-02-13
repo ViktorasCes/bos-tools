@@ -1,0 +1,38 @@
+{
+  "version": "1.3.14",
+  "timestamp": "2018-08-26T21:39:29.364Z",
+  "system": {
+    "location": {
+      "site": "UK-LON-X1",
+      "section": "L02-R05",
+      "position": {
+        "x": 52264.99974,
+        "y": 3241.294132,
+		"z": 8745
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "ifc://13RrY6sdzAIvwvqG1kN$TE",
+        "site": "UK-LON-X1",
+        "name": "DDC-136"
+      }
+    }
+  },
+  "cloud": {
+    "auth_type": "RS256"
+  },
+  "gateway": {
+    "proxy_ids": [ "TRHC-57" ]
+  },
+  "localnet": {
+    "families": {
+      "bacnet": {
+        "id": "1010136"
+      }
+    }
+  },
+  "pointset" : {
+     "points" : {}
+  }
+}
